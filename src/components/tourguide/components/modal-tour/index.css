@@ -1,0 +1,34 @@
+.content-modal {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 24px !important;
+  gap: 16px;
+  isolation: isolate;
+  position: absolute;
+  width: 436px;
+  height: auto;
+  background: #ffffff;
+  border-radius: 16px;
+}
+
+.button-modal {
+  width: 388px !important;
+  height: 48px !important;
+  margin: 12px !important;
+}
+
+.icon-modal {
+  width: 40px !important;
+  height: 40px !important;
+}
+
+.content-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.context-text {
+  text-align: center;
+}
